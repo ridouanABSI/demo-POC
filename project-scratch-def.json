@@ -1,0 +1,27 @@
+{
+  "orgName": "ScratchDemo1",
+  "edition": "Enterprise",
+  "language": "en_US",
+  "features": ["PersonAccounts", "MarketingUser", "PlatformEncryption"],
+  "settings": {
+    "accountSettings": {
+        "enableAccountHistoryTracking": true,
+        "enableContactHistoryTracking": true
+    },
+    "nameSettings": {
+        "enableMiddleName": true,
+        "enableNameSuffix": true
+    },
+    "opportunitySettings": {
+      "enableOpportunityFieldHistoryTracking": true
+    },
+    "sharingSettings": {
+      "enableAssetSharing": true
+    }
+  },
+  "objectSettings": {
+    "asset": {
+      "sharingModel": "private"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<template>
+    <lightning-accordion active-section-name="B">
+
+        <template for:each={faqItems} for:item="item">
+            <lightning-accordion-section key={item.Id} name={item.Question__c} label={item.Question__c}>
+                <div class="slds-p-around_medium">{item.Answer__c}</div>
+            </lightning-accordion-section>
+        </template>
+                  
+
+    </lightning-accordion>
+</template>
