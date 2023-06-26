@@ -21,5 +21,13 @@ public without sharing class FAQController {
       
     }
 
+    public static void featureE(){
+      
+    }
+    public static void featureF(){
+      
+    }
+
+
 
 }
