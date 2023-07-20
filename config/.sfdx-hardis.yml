@@ -1,2 +1,4 @@
 deploymentPlan:
   packages: []
+projectName: devpoc
+devHubAlias: DevHub_devpoc
